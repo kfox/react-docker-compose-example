@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   ui:
-    hostname: api
-    container_name: api
+    hostname: ui
+    container_name: ui
     build:
       args:
         - NODEJS_VERSION

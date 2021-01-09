@@ -6,4 +6,4 @@ WORKDIR /app
 COPY ./package* /app/
 RUN yarn
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
